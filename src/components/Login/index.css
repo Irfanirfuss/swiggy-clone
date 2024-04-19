@@ -1,0 +1,84 @@
+.otp-container > input {
+    width: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.login-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    background-color: grey;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://t4.ftcdn.net/jpg/04/61/47/03/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg");
+    background-size: cover;
+}
+.form-container {
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 350px;
+    padding: 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    margin: 10px;
+}
+form > input,
+label {
+    background-color: transparent;
+    border: none;
+    color: orange;
+    border-bottom: 2px solid salmon;
+}
+form > button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+.otp-container > button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    opacity: 0.8;
+}
+.otp-container > button:hover {
+    opacity: 1;
+}
+.otp-container > input {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    border-bottom: 2px solid salmon;
+}
+.count {
+    margin-top: -10px;
+}
+input {
+    outline: none;
+    color: sandybrown;
+    font-weight: bold;
+    font-size: 15px;
+}
+span {
+    color: red;
+    font-weight: bold;
+}
