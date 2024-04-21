@@ -26,7 +26,7 @@ function Login() {
 
             setOtp(otp);
             setShowNumber(false);
-            alert(otp);
+            alert(`Your OTP is ${otp}`);
             let count = 60;
             let timer = setInterval(() => {
                 count -= 1;
